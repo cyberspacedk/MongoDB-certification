@@ -2,6 +2,7 @@ import express from "express"
 import bodyParser from "body-parser"
 import cors from "cors"
 import morgan from "morgan"
+
 import movies from "../src/api/movies.route"
 import users from "../src/api/users.route"
 
